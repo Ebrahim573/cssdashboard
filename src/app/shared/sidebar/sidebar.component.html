@@ -1,0 +1,35 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>admin</h2>
+            <h4>admin@gmail.com</h4>
+        </div>
+        <img src="https://www.pngmart.com/files/21/Admin-Profile-Vector-PNG-Pic.png" alt="Admin" width="100%" height="100%" style="border-radius: 50%;">
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <mat-icon>dashboard</mat-icon>Dashboard</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/booking">
+        <mat-icon>description</mat-icon>Manage Booking</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/associates">
+        <mat-icon>person_outline</mat-icon>Manage Associates</a>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Tools</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/changepassword">
+        <mat-icon>settings</mat-icon>
+        Settings
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/Logout">
+        <mat-icon>exit_to_app</mat-icon>
+        Logout
+    </a>
+
+</mat-nav-list>
